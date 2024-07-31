@@ -1,10 +1,10 @@
 module.exports = {
   data: {
     name: 'ping',
-    description: 'Pong!',
+    description: '봇의 핑',
   },
 
   run: ({ interaction, client }) => {
-    interaction.reply(`Pong! ${client.ws.ping}ms`);
+    interaction.reply(`핑: ${client.ws.ping}ms`);
   },
 };
