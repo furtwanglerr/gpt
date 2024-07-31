@@ -57,7 +57,7 @@ module.exports = {
   },
 
   data: {
-    name: 'imagine',
+    name: 'image',
     description: '프롬프트를 작성하여 이미지 생성',
     options: [
       {
